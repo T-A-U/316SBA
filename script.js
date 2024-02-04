@@ -24,6 +24,9 @@ function congrats(){
 alert("Thanks for pressing the button! Uploading private information...");
 }
 
+const para = document.createElement("p");
+para.innerText = "This is a paragraph Come back and edit before final submission.";
+document.body.appendChild(para);
 
 
 
