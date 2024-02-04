@@ -24,9 +24,18 @@ function congrats(){
 alert("Thanks for pressing the button! Uploading private information...");
 }
 
+
+//has append child
 const para = document.createElement("p");
 para.innerText = "This is a paragraph Come back and edit before final submission.";
 document.body.appendChild(para);
 
+
+//Modify the HTML or text content of at least one element in response to user interaction using innerHTML, innerText, or textContent.
+const paragraphOrSpan = document.querySelectorAll('.paragraphOrSpan');
+
+paragraphOrSpan.forEach((note) => {
+    note.style.backgroundColor = 'skyblue';
+});
 
  
